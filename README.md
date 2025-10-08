@@ -44,7 +44,7 @@ The app must be able to:
 
 - Show stock's total price.
 
-- Clean up filters.
+- Topbar to switch between products and categories views and clean up filters.
 
 ### 👀 Prerequisites
 
@@ -125,13 +125,19 @@ public class Connection {
 }
 ```
 
-Now you can run the project pressing <code>F6</code> key. You can also <code>Clean and build</code> the project and locate the JAR file at <code>./fruiteria-emilio/CanoFernandezAaron_ProjecteFinal/dist</code>, double click on it to run it on Windows or open a terminal in Linux and run:
+### ⏩ Usage
+Once you followed installation steps, you can run the project pressing <code>F6</code> key. You can also <code>Clean and build</code> the project and locate the JAR file at <code>./fruiteria-emilio/CanoFernandezAaron_ProjecteFinal/dist</code>, double click on it to run it on Windows or open a terminal in Linux and run:
 
 ```bash
 java -jar CanoFernandezAaron_ProjecteFinal.jar
 ```
 
+**Productes (Products) Screen:**
 
+![Productes (Products) Scrren](imgs/image.png)
+
+**Filter by category:**
+![Category filter](gifs/category_filter.GIF)
 
 ### 👤 Author
 **Aarón Cano Fernández (rxnwashere)**  
