@@ -1,8 +1,8 @@
-# FRUITERIA EMILIO
+# 🍏 FRUITERIA EMILIO
 
 Check the project information and setup instructions of the application in the following languages:
 
-- [English](#en)
+- [English](#en) 
 
 - [Spanish](#es)
 
@@ -14,7 +14,15 @@ Check the project information and setup instructions of the application in the f
 
 We were demanded to make a Java application for **Emilio**, a local fruitshop owner who needs an app to manage the products he sells.
 
-<h3>Features</h3>
+### 🛠️ Tech Stack
+- **Language:** Java 21  
+- **Database:** MySQL 8.0.43
+- **IDE:** Apache NetBeans  
+- **Architecture:** DAO (Data Access Object pattern), MVC (Model, View, Controller)  
+- **UI:** Java Swing  
+- **Build Tool:** Ant
+
+### 🍎 Features
 
 The app must be able to:
 
@@ -38,7 +46,7 @@ The app must be able to:
 
 - Clean up filters.
 
-<h3>Prerequisites</h3>
+### 👀 Prerequisites
 
 - [JDK 21 or higher](https://www.oracle.com/es/java/technologies/downloads/)
 
@@ -46,9 +54,9 @@ The app must be able to:
 
 - [MySQL Server](https://dev.mysql.com/downloads/mysql/8.0.html)
 
-- [Git](https://git-scm.com/downloads) (is used to be installed in most Linux Distros, for Windows install Git Bash)
+- [Git](https://git-scm.com/downloads) (used to be installed in most Linux Distros, for Windows install Git Bash)
 
-<h3>Installation</h3>
+### ⚙️ Installation
 
 Run a terminal (or Git Bash if you are using Windows) and clone the repository:
 
@@ -58,11 +66,11 @@ git clone https://github.com/rxnwashere/fruiteria-emilio.git
 
 Run MySQL from a command line or open your database design tool (MySQL Workbench, PHPMyAdmin...) and create the database that will be used by the application:
 
-```bash
+```mysql
 CREATE DATABASE IF NOT EXISTS fruiteria_emilio;
 ```
 
-You don't need to create any tables, the application will do it for you :)
+You don't need to create any tables, the application will do it for you after run it :)
 
 Open Apache Netbeans and open the project, then go to <code>Connection.java</code> located in <code>DAO</code> package.
 
@@ -122,5 +130,13 @@ Now you can run the project pressing <code>F6</code> key. You can also <code>Cle
 ```bash
 java -jar CanoFernandezAaron_ProjecteFinal.jar
 ```
+
+
+
+### 👤 Author
+**Aarón Cano Fernández (rxnwashere)**  
+💻 Student of Web Application Development (DAW)  
+📍 Barcelona, Spain  
+[GitHub Profile](https://github.com/rxnwashere)
 
 **Still writing <code>README.md</code>, it's possible that this version of the file can't be the final one.**
