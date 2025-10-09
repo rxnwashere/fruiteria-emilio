@@ -204,14 +204,14 @@ The new product must have the next fields:
 
 ![Error adding new product label](imgs/error_adding_prod2.png)
 
-**⚠️ For product price and stock will also warn you if you try to input text on them. Stock only allows integers and price allows integers and doubles (decimals):**
+**⚠️ For product price and stock will also warn you if you try to input text on them empty. Stock only allows integers and price allows integers and doubles (decimals):**
 
 ![Error adding new product label when price is not double or int](imgs/error_adding_prod3.png)
 
 ![Error adding new product label when stock is not int](imgs/error_adding_prod4.png)
 
 
-Once you fill all fields the product will be added to the database:
+Once you fill all fields with valid data the product will be added to the database:
 
 ![Succesfully added new product](imgs/success_add_prod.png)
 
@@ -223,7 +223,23 @@ Once you fill all fields the product will be added to the database:
 
 Next to **Add new product button (Afegir)** we will find **Modify product button (Modificar)**:
 
----
+![Add new product button](imgs/modify_product_button.png)
+
+**⚠️ Important: We must select the product we want to update, if we don't the system will warn us:**
+
+![Warning if we don't select a product to modify](imgs/warning_modify_product.png)
+
+After selecting the product and clicking the button, it will show up a similar window like before when we added a new product, it will charge with the selected product data and we will be able to modify it following the same requirements as adding ones.
+
+<code>Modifying item with Code 6 and name Maduixes:</code>
+
+![Modify product window](imgs/modify_product_window.png)
+
+![Succesfully modified product](imgs/success_add_prod.png)
+
+![Succesfully modified product](imgs/success_add_prod2.png)
+
+--- 
 
 #### ❌ Delete product
 
