@@ -100,6 +100,8 @@ import java.sql.SQLException;
  */
 public class Connection {
     static final String driver = "com.mysql.cj.jdbc.Driver";
+    /*If your database is hosted in a remote host change
+    url value*/
     static final String url = "jdbc:mysql://localhost:3306/";
     static final String dbName = "fruiteria_emilio";    
     static final String userName = "root"; // <-- Change this
