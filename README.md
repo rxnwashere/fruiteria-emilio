@@ -78,7 +78,7 @@ Run MySQL from a command line or open your database design tool (MySQL Workbench
 CREATE DATABASE IF NOT EXISTS fruiteria_emilio;
 ```
 
-You don't need to create any tables, the application will do it for you after run it with data entries to test the app usage :)
+You don't need to create any tables, the application will do it for you after run it with data entries to test app usage :)
 
 Open Apache Netbeans and open the project, then go to <code>Connection.java</code> located in <code>DAO</code> package.
 
@@ -203,6 +203,29 @@ The new product must have the next fields:
 ![Error adding new product](imgs/error_adding_prod.png)
 
 ![Error adding new product label](imgs/error_adding_prod2.png)
+
+**⚠️ For product price and stock will also warn you if you try to input text on them. Stock only allows integers and price allows integers and doubles (decimals):**
+
+![Error adding new product label when price is not double or int](imgs/error_adding_prod3.png)
+
+![Error adding new product label when stock is not int](imgs/error_adding_prod4.png)
+
+
+Once you fill all fields the product will be added to the database:
+
+![Succesfully added new product](imgs/success_add_prod.png)
+
+![Succesfully added new product](imgs/success_add_prod2.png)
+
+---
+
+#### ✏️ Modify product
+
+Next to **Add new product button (Afegir)** we will find **Modify product button (Modificar)**:
+
+---
+
+#### ❌ Delete product
 
 ---
 
