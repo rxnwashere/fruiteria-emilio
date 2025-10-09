@@ -136,8 +136,27 @@ java -jar CanoFernandezAaron_ProjecteFinal.jar
 
 ![Productes (Products) Scrren](imgs/image.png)
 
+#### 🔎 Filters
+
 **Filter by category:**
+
 ![Category filter](gifs/category_filter.GIF)
+
+**Filter by stock lower than a given number**
+
+![Stock lower than filter](gifs/stock_lower_filter.GIF)
+
+**Order by specific field**
+
+![Order by field](gifs/orderby.GIF)
+
+#### 💯 Total stock
+
+Shows total stock price in euros (EUR €).
+
+![Total stock price](gifs/totalstock.GIF)
+
+#### ➕ Add a product
 
 ### 👤 Author
 **Aarón Cano Fernández (rxnwashere)**  
