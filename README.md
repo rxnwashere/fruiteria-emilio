@@ -142,11 +142,11 @@ java -jar CanoFernandezAaron_ProjecteFinal.jar
 
 ![Category filter](gifs/category_filter.GIF)
 
-**Filter by stock lower than a given number**
+**Filter by stock lower than a given number:**
 
 ![Stock lower than filter](gifs/stock_lower_filter.GIF)
 
-**Order by specific field**
+**Order by specific field:**
 
 ![Order by field](gifs/orderby.GIF)
 
@@ -156,7 +156,13 @@ Shows total stock price in euros (EUR €).
 
 ![Total stock price](gifs/totalstock.GIF)
 
+#### 🧹 Clean up filters
+
+![Clean up filters button located at topbar](gifs/cleanupfilters.GIF)
+
 #### ➕ Add a product
+
+
 
 ### 👤 Author
 **Aarón Cano Fernández (rxnwashere)**  
