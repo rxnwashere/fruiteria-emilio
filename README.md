@@ -12,7 +12,9 @@ Check the project information and setup instructions of the application in the f
 
 **Fruiteria Emilio** was my last Java project when I was coursing first year of Web Applications Development vocational course.
 
-We were demanded to make a Java application for **Emilio**, a local fruitshop owner who needs an app to manage the products he sells.
+We were demanded to make a Java application for **Emilio**, a local fruitshop owner who needs an app to manage the products he sells and execute CRUD operations easily with a UI.
+
+---
 
 ### 🛠️ Tech Stack
 - **Language:** Java 21  
@@ -21,6 +23,8 @@ We were demanded to make a Java application for **Emilio**, a local fruitshop ow
 - **Architecture:** DAO (Data Access Object pattern), MVC (Model, View, Controller)  
 - **UI:** Java Swing  
 - **Build Tool:** Ant
+
+---
 
 ### 🍎 Features
 
@@ -46,6 +50,8 @@ The app must be able to:
 
 - Topbar to switch between products and categories views and clean up filters.
 
+---
+
 ### 👀 Prerequisites
 
 - [JDK 21 or higher](https://www.oracle.com/es/java/technologies/downloads/)
@@ -55,6 +61,8 @@ The app must be able to:
 - [MySQL Server](https://dev.mysql.com/downloads/mysql/8.0.html)
 
 - [Git](https://git-scm.com/downloads) (used to be installed in most Linux Distros, for Windows install Git Bash)
+
+---
 
 ### ⚙️ Installation
 
@@ -70,7 +78,7 @@ Run MySQL from a command line or open your database design tool (MySQL Workbench
 CREATE DATABASE IF NOT EXISTS fruiteria_emilio;
 ```
 
-You don't need to create any tables, the application will do it for you after run it :)
+You don't need to create any tables, the application will do it for you after run it with data entries to test the app usage :)
 
 Open Apache Netbeans and open the project, then go to <code>Connection.java</code> located in <code>DAO</code> package.
 
@@ -125,6 +133,8 @@ public class Connection {
 }
 ```
 
+---
+
 ### ⏩ Usage
 Once you followed installation steps, you can run the project pressing <code>F6</code> key. You can also <code>Clean and build</code> the project and locate the JAR file at <code>./fruiteria-emilio/CanoFernandezAaron_ProjecteFinal/dist</code>, double click on it to run it on Windows or open a terminal in Linux and run:
 
@@ -134,7 +144,9 @@ java -jar CanoFernandezAaron_ProjecteFinal.jar
 
 **Productes (Products) Screen:**
 
-![Productes (Products) Scrren](imgs/image.png)
+![Productes (Products) Scrren](imgs/prods_screen.png)
+
+---
 
 #### 🔎 Filters
 
@@ -150,19 +162,47 @@ java -jar CanoFernandezAaron_ProjecteFinal.jar
 
 ![Order by field](gifs/orderby.GIF)
 
+---
+
 #### 💯 Total stock
 
 Shows total stock price in euros (EUR €).
 
 ![Total stock price](gifs/totalstock.GIF)
 
+---
+
 #### 🧹 Clean up filters
 
 ![Clean up filters button located at topbar](gifs/cleanupfilters.GIF)
 
-#### ➕ Add a product
+---
 
+#### ➕ Add new product
 
+Clicking the middle button located at the bottom of the window we can add a new product to the database.
+
+![Add new product button](imgs/add_product_button.png)
+
+![Add new product window](imgs/add_product_window.png)
+
+The new product must have the next fields:
+
+- **Code** : Automatically assigned by the system when you create a new product
+- **Name (Nom)** : Text field that will identify clearly the product.
+- **Category (Categoria)** : Drop-down list that references the <code>Categoria</code> table, allowing products to be grouped by type.
+- **Price (Preu)** : Indicates how much it costs the product.
+- **Price type (tipus preu)** : Radio buttons that specify how the price is applied.
+- **Stock** : Indicates the amount of product available in inventory.
+- **On sale (Oferta)** : Checkbox to mark if the product is currently on sale (true/false).
+
+**⚠️ All fields are required! If you left one of them the system will warn you and will not allow you to add the product:**
+
+![Error adding new product](imgs/error_adding_prod.png)
+
+![Error adding new product label](imgs/error_adding_prod2.png)
+
+---
 
 ### 👤 Author
 **Aarón Cano Fernández (rxnwashere)**  
