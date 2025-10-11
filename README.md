@@ -29,6 +29,7 @@ CanoFernandezAaron_ProjecteFinal/
 ├── src/       # Main source code
 │   ├── Controller/  # Controllers handling logic between the view and model
 │   ├── DAO/         # Data Access Objects (database interaction layer)
+|   ├── Main/        # Java Main Class and runs the app  
 │   ├── Model/       # Java objects and classes representing database entities (Product and Category)
 │   └── View/        # Swing-based UI forms (product view, category view, dialogs, etc.)
 ├── build.xml        # Ant build script
