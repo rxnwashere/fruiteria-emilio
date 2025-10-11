@@ -262,6 +262,18 @@ After selecting the product and clicking the button, it will show up a similar w
 
 #### ❌ Delete product
 
+Selecting a product like before and clicking the next button we can delete a product:
+
+![Delete button](imgs/delete_button.png)
+
+We will be asked to confirm the operation:
+
+![Confirm product removal](imgs/delete_prod.png)
+
+![Success removal alert](imgs/delete_prod2.png)
+
+![The product has been deleted](imgs/delete_prod3.png)
+
 ---
 
 ### 👤 Author
