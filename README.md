@@ -276,6 +276,20 @@ We will be asked to confirm the operation:
 
 ---
 
+#### 🔁 Switch to categories view
+
+Locate at topbar and press <code>Canviar vista a Categories</code>, the dropdown will show you an option, click on it and you will be switched to categories view:
+
+![Switch view](gifs/switch.GIF)
+
+Once you are in categories view you can switch back to products doing the same as before.
+
+---
+
+
+
+---
+
 ### 👤 Author
 **Aarón Cano Fernández (rxnwashere)**  
 💻 Student of Web Application Development (DAW)  
