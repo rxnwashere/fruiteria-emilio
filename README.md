@@ -1,14 +1,6 @@
 # 🍏 FRUITERIA EMILIO
 
-Check the project information and setup instructions of the application in the following languages:
-
-- [English](#en) 
-
-- [Spanish](#es)
-
-- [Catalan](#cat)
-
-<a name="en"><h3>About this project</h3></a>
+### About this project
 
 **Fruiteria Emilio** was my last Java project when I was coursing first year of Web Applications Development vocational course.
 
@@ -286,7 +278,65 @@ Once you are in categories view you can switch back to products doing the same a
 
 ---
 
+#### ➕ Add new category
 
+Clicking the **Afegir** button located at the bottom of the window allows you to create a new category in the database.
+
+![Add category button](imgs/add_category_button.png)
+
+![Add category window](imgs/add_category_window.png)
+
+Each category must have:
+
+- Name (Nom) : Category name
+
+- Description (Descripció) : Short text describing what kind of products belong to this category. You can left it empty.
+
+Once all data is valid, the new category will be successfully added:
+
+![Succesfully added category](imgs/success_add_category.png)
+
+![Succesfully added category](imgs/success_add_category2.png)
+
+---
+
+#### ✏️ Modify category
+
+To modify a category, select one from the table and click the **Modificar** button.
+
+![Modify category button](imgs/modify_category_button.png)
+
+If no category is selected, the system will show a warning:
+![Modify category warning](imgs/warning_modify_category.png)
+
+When a category is selected, a small form appears showing its current data, ready to be edited.
+After confirming, the database is updated and the changes appear immediately in the table.
+
+![Successfully modified category](imgs/success_modify_category.png)
+
+![Successfully modified category](imgs/success_modify_category2.png)
+
+---
+
+#### ❌ Delete category
+
+To delete a category, select it from the table and click the Eliminar button.
+
+![Delete category button](imgs/delete_category_button.png)
+
+**⚠️ Important restriction: A category can only be deleted if no products are associated with it. If there are linked products, the system will notify the user and block the deletion to preserve referential integrity.**
+
+Example of deletion blocked due to linked products:
+
+![Delete error due to linked products](imgs/delete_category_error.png)
+
+If the category has no related products, the deletion will be successful:
+
+![Confirm delete](imgs/delete_category.png)
+
+![Successfully deleted category](imgs/success_delete_category.png)
+
+![Successfully deleted category](imgs/success_delete_category2.png)
 
 ---
 
@@ -295,5 +345,3 @@ Once you are in categories view you can switch back to products doing the same a
 💻 Student of Web Application Development (DAW)  
 📍 Barcelona, Spain  
 [GitHub Profile](https://github.com/rxnwashere)
-
-**Still writing <code>README.md</code>, it's possible that this version of the file can't be the final one.**
